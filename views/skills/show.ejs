@@ -11,7 +11,7 @@
     <h1>Show Page</h1>
 
     <h3><%= skill.skill %></h3>
-    <h3>Status: <span><%= skill.done ? 'Of Course!' : 'Needs Work' %></span></h3>
+    <h3>Status: <span><%= skill.done ? 'Batman' : "I'm Batman" %></span></h3>
     <form method="POST" action="/skills/<%= skill.id %>?_method=DELETE">
     <button type="submit">Delete Skill</button>
     </form>
